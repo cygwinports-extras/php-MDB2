@@ -1,0 +1,103 @@
+php-MDB2
+------------------------------------------
+PEAR MDB2 is a merge of the PEAR DB and Metabase php database 
+abstraction layers.
+
+It provides a common API for all supported RDBMS. The main difference to 
+most other DB abstraction packages is that MDB2 goes much further to 
+ensure portability. MDB2 provides most of its many features optionally 
+that can be used to construct portable SQL statements.
+
+Runtime requirements:
+  php-5.2.5-1
+  php-pear-5.2.5-1
+
+Canonical website:
+  http://pear.php.net/package/MDB2/
+
+Canonical download:
+  http://pear.php.net/get/MDB2
+
+-------------------------------------------
+
+Build instructions:
+  unpack php-MDB2-2.4.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./php-MDB2-2.4.1-X.cygport all
+
+This will create:
+  /usr/src/php-MDB2-2.4.1-X-src.tar.bz2
+  /usr/src/php-MDB2-2.4.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/doc/php-MDB2-2.4.1/LICENSE
+  /usr/share/pear/.registry/mdb2.reg
+  /usr/share/pear/MDB2.php
+  /usr/share/pear/MDB2/Date.php
+  /usr/share/pear/MDB2/Driver/Datatype/Common.php
+  /usr/share/pear/MDB2/Driver/Function/Common.php
+  /usr/share/pear/MDB2/Driver/Manager/Common.php
+  /usr/share/pear/MDB2/Driver/Native/Common.php
+  /usr/share/pear/MDB2/Driver/Reverse/Common.php
+  /usr/share/pear/MDB2/Extended.php
+  /usr/share/pear/MDB2/Iterator.php
+  /usr/share/pear/MDB2/LOB.php
+  /usr/share/pear/data/MDB2/LICENSE
+  /usr/share/pear/doc/MDB2/docs/CONTRIBUTORS
+  /usr/share/pear/doc/MDB2/docs/MAINTAINERS
+  /usr/share/pear/doc/MDB2/docs/README
+  /usr/share/pear/doc/MDB2/docs/STATUS
+  /usr/share/pear/doc/MDB2/docs/TODO
+  /usr/share/pear/doc/MDB2/docs/datatypes.html
+  /usr/share/pear/doc/MDB2/docs/examples/example.php
+  /usr/share/pear/doc/MDB2/docs/examples/example_php5.php
+  /usr/share/pear/doc/MDB2/docs/examples/metapear_test_db.schema
+  /usr/share/pear/test/MDB2/tests/Console_TestListener.php
+  /usr/share/pear/test/MDB2/tests/HTML_TestListener.php
+  /usr/share/pear/test/MDB2/tests/MDB2_Connect_Test.php
+  /usr/share/pear/test/MDB2/tests/MDB2_api_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_bugs_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_datatype_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_extended_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_function_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_internals_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_manager_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_native_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_nonstandard.php
+  /usr/share/pear/test/MDB2/tests/MDB2_nonstandard_ibase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_nonstandard_mssql.php
+  /usr/share/pear/test/MDB2/tests/MDB2_nonstandard_mysql.php
+  /usr/share/pear/test/MDB2/tests/MDB2_nonstandard_mysqli.php
+  /usr/share/pear/test/MDB2/tests/MDB2_nonstandard_oci8.php
+  /usr/share/pear/test/MDB2/tests/MDB2_nonstandard_pgsql.php
+  /usr/share/pear/test/MDB2/tests/MDB2_nonstandard_sqlite.php
+  /usr/share/pear/test/MDB2/tests/MDB2_reverse_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_testcase.php
+  /usr/share/pear/test/MDB2/tests/MDB2_usage_testcase.php
+  /usr/share/pear/test/MDB2/tests/README
+  /usr/share/pear/test/MDB2/tests/basic.phpt
+  /usr/share/pear/test/MDB2/tests/clitest.php
+  /usr/share/pear/test/MDB2/tests/config.php
+  /usr/share/pear/test/MDB2/tests/driver_test.schema.xml
+  /usr/share/pear/test/MDB2/tests/import.schema.php
+  /usr/share/pear/test/MDB2/tests/test.php
+  /usr/share/pear/test/MDB2/tests/testUtils.php
+  /usr/share/pear/test/MDB2/tests/test_setup.php.dist
+  /usr/share/pear/test/MDB2/tests/testchoose.php
+  /usr/share/pear/test/MDB2/tests/tests.css
+
+------------------
+
+Port Notes:
+
+----- version 2.4.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
